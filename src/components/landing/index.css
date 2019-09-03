@@ -1,0 +1,6 @@
+.landing {
+	display: inline-block;
+	width: 100%;
+	background-color: #000;
+	height: calc(200vh - 90px);
+}
