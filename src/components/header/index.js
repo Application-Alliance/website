@@ -93,8 +93,8 @@ class Header extends React.Component {
 						<ul>
 							<li><a href="#about" >About</a></li>
 							<li><a href="#community" >Community</a></li>
-							<li><a href="#explore" >Explore</a></li>
-							<li><a className="openingsButton" href='#openings'>Openings</a></li>
+							<li><a href="#openings" >Openings</a></li>
+							<li><a className="exploreButton" href='#explore'>Explore</a></li>
 						</ul>
 						{
 							this.state.showMenuIcon
@@ -120,8 +120,8 @@ class Header extends React.Component {
 									<ul>
 										<li><a href="#about">About</a></li>
 										<li><a href="#community">Community</a></li>
-										<li><a href="#explore">Explore</a></li>
-										<li><a className="openingsButton" href='#openings'>Openings</a></li>
+										<li><a href="#openings">Openings</a></li>
+										<li><a className="exploreButton" href='#explore'>Explore</a></li>
 									</ul>
 								</div>
 							)

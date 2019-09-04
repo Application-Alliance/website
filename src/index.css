@@ -6,3 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.pageItem {
+  padding: 0px 40px 0px 40px;
+}
+
+/* Responsiveness */
+@media screen and (min-width: 1400px) {
+	.pageItem {
+    width: 1125px;
+    margin-left: calc(50% - 565px);
+    padding: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+  .pageItem {
+    padding: 0px 10px 0px 10px;
+  }
+}

@@ -1,0 +1,52 @@
+.about-cta {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(100deg, #7E6CFF 0%, #483AFF 100%);
+	padding: 90px 0px 90px 0px;
+}
+
+.about-cta > div > h1 {
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 0.8;
+	color: #fefefe;
+}
+
+.about-cta > div > p {
+	font-size: 21px;
+	line-height: 35px;
+	color: #fff;
+}
+
+.about-expanded {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+	background-color: #262B44;
+	padding-bottom: 600px; /* TODO: Remove this when content is filled */
+}
+
+.about-expanded > div > h1 {
+	font-size: 45px;
+	color: #fff;
+	line-height: 35px;
+}
+
+.about-expanded > div > p {
+	font-size: 21px;
+	line-height: 35px;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.featureItem {
+	text-decoration: none;
+}
+
+.featureItem > div {
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+}
